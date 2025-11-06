@@ -1,0 +1,32 @@
+# Car Park Allocation System - Python Dependencies
+
+# Core web framework
+Flask==3.0.0
+
+# NumPy - Must be compatible with opencv-python
+# Using NumPy 1.x to avoid compatibility issues with OpenCV
+numpy<2.0.0
+
+# Computer vision for QR code scanning
+# Updated to latest version that supports NumPy compatibility
+opencv-python==4.10.0.84
+
+# QR Code generation and scanning
+qrcode==7.4.2
+pyzbar==0.1.9
+
+
+# HTTP requests (for payment integration)
+requests==2.31.0
+
+# Image processing support (pillow is required by qrcode)
+Pillow==10.1.0
+
+# Note: The following are part of Python's standard library and don't need to be installed:
+# - sqlite3 (built-in database)
+# - datetime (built-in)
+# - uuid (built-in)
+# - random (built-in)
+# - re (built-in)
+# - os (built-in)
+# - tkinter (usually pre-installed with Python on Windows)
